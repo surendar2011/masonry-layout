@@ -1,16 +1,31 @@
-# React + Vite
+# 🧱 Masonry Layout Playground
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **production-ready masonry layout** built with pure CSS columns + React. Pinterest-style image gallery with hover effects, responsive design, and zero JavaScript layout calculations.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### ✅ Core Layout
+- **Pure CSS Masonry** using `columns` property (no JS overhead)
+- **Responsive columns**: 1 → 2 → 3 → 4 columns across screen sizes
+- **Prevent content breaks** with `break-inside-avoid`
+- **Random image heights** for authentic masonry look
 
-## React Compiler
+### 🎨 Visual Polish
+- **Hover effects**: Scale + overlay animation
+- **Gradient backgrounds** for depth
+- **Shadow & rounded corners** for card design
+- **Lazy loading** images for performance
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 📱 Responsive Design
+- Mobile-first approach
+- Fluid typography & spacing
+- Touch-friendly hover states
 
-## Expanding the ESLint configuration
+## 📦 Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+# Clone and run locally
+git clone https://github.com/yourusername/masonry-playground
+cd masonry-layout
+npm install
+npm run dev
