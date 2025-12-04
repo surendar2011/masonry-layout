@@ -2,7 +2,6 @@ export default function App() {
   const images = Array.from({ length: 12 }, (_, i) => ({
     id: i + 1,
     url: `https://picsum.photos/300/${300 + Math.floor(Math.random() * 200)}?random=${i}`,
-    height: 300 + Math.floor(Math.random() * 200) // Random heights
   }));
 
   return (
